@@ -1,0 +1,281 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"맑은 고딕", "돋움";
+    font-size:12px;
+    color:#444444;
+}
+ul {
+    list-style-type:none;
+}
+.clear {
+    clear:both;
+}
+#wrap {
+    width:970px;
+    margin:0 auto;
+}
+
+
+
+.profilefont{
+		float:left;
+		font-size: 90px;
+		font-family: 'Pacifico', cursive;
+		margin: 20px 20px 20px 50px;
+		}
+.introductionfont{
+		float:left;
+		font-size: 70px;
+		font-family: 'Pacifico', cursive;
+		margin: 20px 0px 20px 50px;
+		}
+.profilefont2{
+		float:left;
+		font-size: 50px;
+		font-family: 'Pacifico', cursive;
+		margin: 15px 20px 0px 50px;
+		}
+.profilefont3{
+		float:left;
+		font-size: 20px;
+		font-family: 'Pacifico', cursive;
+		margin: 0px 20px 20px 50px;
+		}
+.profilepicture{
+	float :left;
+	width:170px;
+	margin:30px 60px 30px 60px;
+}
+.profilemenu{
+	float:center;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+.experience{
+	float:left;
+	width:90px;
+	margin : 0px 6px 0px 250px;
+}
+.introduction{
+	float:left;
+	width:90px;
+	margin: 0px 3px 0px 260px;
+}
+
+.experience2{
+	float:left;
+	width:90px;
+	margin : 0px 6px 0px 10px;
+}
+.introduction2{
+	float:left;
+	width:90px;
+	margin: 0px 3px 0px 20px;
+}
+
+
+
+
+
+
+.box{
+width:830px;
+    height:300px;
+    margin:10px 0 0 50px;
+    border:solid 1px #cccccc;	
+    border-radius:30px;
+    box-shadow:2px 2px 5px #dddddd;
+font-family: 'Nanum Pen Script', cursive;
+}
+.box h1{
+	font-size:50px;
+}
+.box h2{
+	font-size:30px;
+}
+
+
+.box2{
+width:830px;
+    height:200px;
+    margin:10px 0 0 50px;
+    border:solid 1px #cccccc;	
+    border-radius:30px;
+    box-shadow:2px 2px 5px #dddddd;
+font-family: 'Nanum Pen Script', cursive;
+}
+.box2 h1{
+	font-size:50px;
+}
+.box2 h2{
+	font-size:30px;
+}
+
+
+
+.box3{
+width:830px;
+    height:450px;
+    margin:10px 0 0 50px;
+    border:solid 1px #cccccc;	
+    border-radius:30px;
+    box-shadow:2px 2px 5px #dddddd;
+font-family: 'Nanum Pen Script', cursive;
+}
+.box3 h1{
+	font-size:50px;
+}
+.box3 h2{
+	font-size:30px;
+}
+
+
+
+.box4{
+width:830px;
+    height:200px;
+    margin:10px 0 0 50px;
+    border:solid 1px #cccccc;	
+    border-radius:30px;
+    box-shadow:2px 2px 5px #dddddd;
+font-family: 'Nanum Pen Script', cursive;
+}
+.box4 h1{
+	font-size:50px;
+}
+.box4 h2{
+	font-size:30px;
+}
+
+.box5{
+width:830px;
+    height:1000px;
+    margin:10px 0 0 50px;
+    border:solid 1px #cccccc;	
+    border-radius:30px;
+    box-shadow:2px 2px 5px #dddddd;
+font-family: 'Nanum Pen Script', cursive;
+}
+.box h1{
+	font-size:50px;
+}
+.box h2{
+	font-size:30px;
+}
+
+
+
+
+.balloon_03 {
+ float:left;
+ position:relative;
+  margin: 30px 0px 0px 0px;
+ width:600px;
+ height:150px;
+  background:#F5E7E7;
+  border-radius: 10px;
+}
+.balloon_03:after {
+ border-top:15px solid #F5E7E7;
+ border-left: 15px solid transparent;
+ border-right: 0px solid transparent;
+ border-bottom: 0px solid transparent;
+ content:"";
+ position:absolute;
+ top:10px;
+ left:-15px;
+}
+
+
+.balloon_04 {
+ float:right;
+ position:relative;
+ margin: 30px 100px 0px 0px;
+ width:600px;
+ height:150px;
+  background:#E0ECF8;
+  border-radius: 10px;
+font-family: 'Nanum Pen Script', cursive;
+}
+.balloon_04:after {
+ border-top:15px solid #E0ECF8;
+ border-left: 0px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 0px solid transparent;
+ content:"";
+ position:absolute;
+ top:20px;
+ right:-15px;
+}
+.balloon_04 h1{
+	font-size:50px;
+}
+.ballon__04 h2{
+	font-size:30px;
+}
+
+.balloon_05 {
+ float:left;
+ position:relative;
+  margin: 30px 0px 0px 70px;
+ width:800px;
+ height:450px;
+  background:#F5E7E7;
+  border-radius: 10px;
+font-family: 'Nanum Pen Script', cursive;
+}
+.balloon_05:after {
+ border-top:15px solid #F5E7E7;
+ border-left: 15px solid transparent;
+ border-right: 0px solid transparent;
+ border-bottom: 0px solid transparent;
+ content:"";
+ position:absolute;
+ top:10px;
+ left:-15px;
+}
+.balloon_05 h1{
+	font-size:50px;
+}
+.balloon_05 h2{
+	font-size:30px;
+}
+
+.balloon_06 {
+ float:left;
+ position:relative;
+  margin: 30px 0px 0px 70px;
+ width:800px;
+ height:320px;
+  background:#F5E7E7;
+  border-radius: 10px;
+font-family: 'Nanum Pen Script', cursive;
+}
+
+
+.balloon_06:after {
+ border-top:15px solid #F5E7E7;
+ border-left: 15px solid transparent;
+ border-right: 0px solid transparent;
+ border-bottom: 0px solid transparent;
+ content:"";
+ position:absolute;
+ top:10px;
+ left:-15px;
+}
+.balloon_06 h1{
+	font-size:50px;
+}
+.balloon_06 h2{
+	font-size:30px;
+}
