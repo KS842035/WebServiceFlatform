@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2015842035김현수</title>
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>
+        <table>
+			<tr>
+                <td class="caculatebox" colspan="4">
+                    <input id="box" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="resultbox" colspan="4">
+                    <input id="result" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="clear" colspan="1" onclick="reset()">C</td>
+                <td class="side" onclick="add(&#39;/&#39;)">/</td>
+				<td class="side" onclick="add(&#39;*&#39;)">*</td>
+				<td class="side" onclick="add(&#39;-&#39;)">-</td>
+            </tr>
+            <tr>
+                <td onclick="add(1)">1</td>
+				<td onclick="add(2)">2</td>
+				<td onclick="add(3)">3</td>
+				<td class="side" onclick="add(&#39;+&#39;)">+</td>
+				
+            </tr>
+            <tr>
+                <td onclick="add(4)">4</td>
+				<td onclick="add(5)">5</td>
+				<td onclick="add(6)">6</td>
+				<td rowspan="3" class="side" onclick="calculate()">=</td>
+				
+            </tr>
+            <tr>
+                <td onclick="add(7)">7</td>
+				<td onclick="add(8)">8</td>
+				<td onclick="add(9)">9</td>
+				
+            </tr>
+            <tr>
+                <td colspan="3" onclick="add(0)">0</td>
+				
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

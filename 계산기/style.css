@@ -1,0 +1,46 @@
+table {
+	background-color : #5B5B5D;
+    border: 1px solid #5B5B5D;
+    height: 700px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+input {
+    font-size: 50px;
+    text-align: right;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+tr {
+    background: #80E1CC;
+}
+
+.caculatebox{
+	background: #F4F4F5;      
+}
+
+.resultbox{
+	background: #F1F0F7;
+}
+
+.clear{
+	background-color: #FA5858;
+}
+
+.side {
+    background: #F2A23C;
+}
+
+td {
+    border: 1px solid #454448;
+    cursor: pointer;
+}
+
+td:hover{
+	background: #F6F9F9;
+	
+}
